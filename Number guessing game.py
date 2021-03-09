@@ -34,7 +34,7 @@ def start_game(prediction = 5):
 
     countdown()
 
-    correct_value = random.randint(0,5)
+    correct_value = random.randint(0,50)
 
     while(prediction > 0):
         guess = int(input("I kept a number between 0 and 50 in my mind. Guess which one?"))
